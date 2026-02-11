@@ -3,7 +3,7 @@ import { ArrowRight } from 'lucide-react';
 
 const Hero = () => {
     return (
-        <section id="hero" className="relative bg-slate-50 overflow-hidden">
+        <section id="hero" className="relative bg-rose-50 overflow-hidden">
             {/* Background Image with Overlay */}
             <div className="absolute inset-0 z-0">
                 <img
@@ -11,7 +11,7 @@ const Hero = () => {
                     alt="Profesional contable en oficina"
                     className="w-full h-full object-cover object-top opacity-20"
                 />
-                <div className="absolute inset-0 bg-gradient-to-r from-slate-50 via-slate-50/90 to-transparent"></div>
+                <div className="absolute inset-0 bg-gradient-to-r from-rose-50 via-rose-50/90 to-transparent"></div>
             </div>
 
             <div className="container mx-auto px-4 md:px-6 relative z-10 py-24 md:py-32 lg:py-40">

@@ -3,7 +3,7 @@ import { Mail, MapPin, Phone, Send } from 'lucide-react';
 
 const Contact = () => {
     return (
-        <section id="contacto" className="py-24 bg-slate-50">
+        <section id="contacto" className="py-24 bg-rose-50">
             <div className="container mx-auto px-4 md:px-6">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-start">
 

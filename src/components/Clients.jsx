@@ -2,7 +2,7 @@ import React from 'react';
 import { Quote } from 'lucide-react';
 
 const TestimonialCard = ({ quote, author, role }) => (
-    <div className="bg-slate-50 p-8 rounded-2xl relative">
+    <div className="bg-white p-8 rounded-2xl relative shadow-sm border border-rose-100">
         <Quote className="absolute top-8 left-8 text-sky-200 w-10 h-10 -z-10" />
         <p className="text-slate-700 italic mb-6 relative z-10">
             "{quote}"
@@ -39,7 +39,7 @@ const Clients = () => {
     ];
 
     return (
-        <section id="clientes" className="py-24 bg-white border-t border-slate-50">
+        <section id="clientes" className="py-24 bg-white border-t border-rose-50">
             <div className="container mx-auto px-4 md:px-6">
                 <div className="text-center max-w-3xl mx-auto mb-16">
                     <h2 className="text-sm font-bold text-rose-500 uppercase tracking-wider mb-2">Nuestros Clientes</h2>
