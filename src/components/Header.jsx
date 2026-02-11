@@ -20,7 +20,7 @@ const Header = () => {
                     <Calculator className="h-8 w-8 text-sky-600" />
                     <div className="flex flex-col">
                         <span className="text-xl font-display font-bold text-slate-900 leading-tight">
-                            CPC Juana Beizaga
+                            CPC Juana Beizaga Quilichi
                         </span>
                         <span className="text-xs text-slate-500 font-medium tracking-wide">
                             ESTUDIO CONTABLE
