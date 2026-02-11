@@ -22,19 +22,20 @@ const TestimonialCard = ({ quote, author, role }) => (
 const Clients = () => {
     const testimonials = [
         {
-            quote: "La CPC Juana Beizaga ha sido clave para la formalización y orden de mi empresa. Su trato es directo y muy profesional.",
-            author: "Carlos Méndez",
-            role: "Gerente, Importadora Méndez"
+            quote: "El apoyo de la CPC Juanita Beizaga ha sido clave para la formalización y orden de mi empresa. Su trato es directo y muy profesional.",
+            author: "Gonzalo Tapia",
+            role: "Gerente, VideoBits S.A., comunicación audiovisual"
         },
         {
             quote: "Gracias a su asesoría tributaria hemos optimizado nuestros procesos y evitado contingencias con SUNAT. Totalmente recomendados.",
-            author: "Ana Gutiérrez",
-            role: "Administradora, Clínica Santa Fe"
+            author: "Valia de Espinoza de Higa",
+            role: "Administradora, Cafetalera Villa Rica S.A.C."
         },
+
         {
             quote: "Un servicio contable que realmente se preocupa por explicarte las cosas claras. Nos sentimos muy seguros trabajando con ellos.",
-            author: "Luis Paredes",
-            role: "Fundador, Constructora Paredes SAC"
+            author: "Carla Muy Muy",
+            role: "Industrias alimentarias Santa Rosa SAC"
         }
     ];
 
